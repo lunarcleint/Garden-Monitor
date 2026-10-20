@@ -22,6 +22,7 @@ arduino-cli core update-index # Update Index
 arduino-cli core install arduino:renesas_uno # Install R4 Wifi board
 arduino-cli lib install ArduinoJson # Install JSON support
 arduino-cli lib install ArduinoHttpClient # Install Http support
+arduino-cli lib install "NTPClient" # Install NTP support
 ```
 - Now to build open a shell in the root of this project and run: 
 ```sh
